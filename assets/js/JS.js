@@ -22,6 +22,6 @@ $(function () {
   })
 })
 
-
+$('.dropdown-toggle').dropdown();
     
   
