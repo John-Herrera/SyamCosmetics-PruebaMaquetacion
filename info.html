@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Prueba de maquetaci&oacute;n</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/info.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="loaderpag text-center" id="Loader" >
+        <img class="fa-spin" width="50px" src="assets/img/Cargando.gif" alt=""/>
+    </div>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div id="dismiss">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <div class="sidebar-header text-center">
+                <h3>COLLAPSIBLE SIDEBAR</h3>
+            </div>
+            <ul class="list-unstyled components">
+                <li class="active">
+                    <div class="btn-group dropright w-100">
+                        <button type="button" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            MENU OPTION
+                        </button>
+                        <div class="dropdown-menu">
+                            <div>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="btn-group dropright w-100">
+                        <button type="button" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            MENU OPTION
+                        </button>
+                        <div class="dropdown-menu">
+                            <div>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="btn-group dropright w-100">
+                        <button type="button" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            MENU OPTION
+                        </button>
+                        <div class="dropdown-menu">
+                            <div>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="btn-group dropright w-100">
+                        <button type="button" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            MENU OPTION
+                        </button>
+                        <div class="dropdown-menu">
+                            <div>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="btn-group dropright w-100">
+                        <button type="button" class="btn btn-lg btn-info dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            MENU OPTION
+                        </button>
+                        <div class="dropdown-menu">
+                            <div>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                                <br>
+                                <button type="button" class="btn btn-info">
+                                    SUBMENU
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>        
+        <div id="content">
+            <nav class="navbar navbar-default navbar--tamano navbar--barra-fija">
+                <div class="container-fluid">
+                    <div class="navbar-header w-100 text-center">
+                        <h1>
+                            <button type="button" id="sidebarCollapse"
+                                class="float-left navbar-header btn btn-info navbar-btn">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                            </button>
+                            HEADER
+                            <div class="btn-group float-right engran ">
+                                <i class="fa fa-cog dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false" aria-hidden="true"></i>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div class="config row">
+                                        <div class="col-lg-6 order-lg-2 order-xl-2 ">
+                                            <img src="assets/img/IMG.png" id="icon" alt="User Icon" />
+                                        </div>
+                                        <div class="col-lg-6 order-lg-1 order-xl-1 text-center">
+                                            <a class="texto1">Text</a>
+                                            <br />
+                                            <a class="texto2">Text</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </h1>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Page</a></li>
+                            <li><a href="#">Page</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <body-content>
+                <div class="container-fluid container-fluid-mb">
+                    <div class="row margin">
+                        <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 order-lg-2 order-md-1 order-sm-1">
+                            <div class="box-info-3 shadow">
+                                <h1>Estatic info 3 </h1>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 order-lg-1 order-md-2 order-sm-2">
+                            <div class="row">
+                                <div class="col-lg-7 col-md-7 order-xl-1 order-lg-1 order-md-1 order-sm-1 ">
+                                    <div class="box-card shadow ">
+                                        <h1> Card 1 </h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 order-xl-2 order-lg-2  order-md-2 order-sm-0">
+                                    <div class="box-static-info shadow">
+                                        <h1>static info 1</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-md-5 order-xl-3 order-lg-3 order-md-3 order-sm-2">
+                                    <div class="box-static-info shadow">
+                                        <h1>static info 2</h1>
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 col-md-7 order-xl-4 order-lg-4 order-md-4 order-sm-3">
+                                    <div class="box-card shadow">
+                                        <h1>Card 2</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body-content>
+            <footer>
+                <div class="container-fluid text-center">
+                    <h1>FOOTER</h1>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/JS.js"></script>
+</body>
+</html>
